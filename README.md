@@ -43,9 +43,3 @@ This project provides a foundational understanding of web development, showcasin
 1. Clone this repository or download the files.
 2. Open the `index.html` file in your browser.
 3. Enjoy exploring the webpage with interactive features, responsive layout, and form validation.
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
