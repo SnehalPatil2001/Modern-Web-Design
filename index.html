@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Design: Form, Function, and Interactivity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to My Modern Web Design!</h1>
+            <p>This webpage combines form, function, and interactivity in a modern design. Feel free to explore the features!</p>
+            <button id="changeColorButton">Change Background Color</button>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This section describes the skills and background of the website creator. I'm passionate about creating responsive, interactive websites!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email" />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Modern Web Design. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
